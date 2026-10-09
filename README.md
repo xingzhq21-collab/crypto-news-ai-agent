@@ -7,7 +7,7 @@
 
 RSS Read → Loop Over Items → DeepSeek API → Wait (5s) → 飞书推送
 
-![工作流截图](screenshot-workflow.png)
+![工作流截图](n8n.png)
 
 ## 技术栈
 
@@ -28,4 +28,4 @@ RSS Read → Loop Over Items → DeepSeek API → Wait (5s) → 飞书推送
 - 每条新闻生成 80 字以内中文摘要
 - 全程零代码，人工只需几分钟复核
 
-![飞书推送截图](screenshot-feishu.png)
+![飞书推送截图](飞书.png)
