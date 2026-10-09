@@ -29,3 +29,17 @@ RSS Read → Loop Over Items → DeepSeek API → Wait (2s) → 飞书推送
 - 全程零代码，人工只需几分钟复核
 
 ![飞书推送截图](飞书.png)
+
+## 如何使用
+
+### 前置条件
+- n8n 账号（Cloud 或自建）
+- DeepSeek API Key
+- 飞书群自定义机器人 Webhook
+
+### 导入与配置
+1. 下载本仓库的 `crypto-news-ai-agent.json`
+2. 在 n8n 中导入该文件
+3. 配置 DeepSeek 节点：将 Authorization 头替换为 `Bearer 你的API Key`
+4. 配置飞书节点：将 URL 替换为你的飞书 Webhook 地址
+5. 点击 Execute workflow 即可运行
