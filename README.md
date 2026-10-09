@@ -5,7 +5,7 @@
 
 ## 工作流结构
 
-RSS Read → Loop Over Items → DeepSeek API → Wait (5s) → 飞书推送
+RSS Read → Loop Over Items → DeepSeek API → Wait (2s) → 飞书推送
 
 ![工作流截图](n8n.png)
 
